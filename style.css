@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(./IMG/digital-art-pixel-art-pixels-pixelated-nature-landscape-water-clouds-sky-horizon-simple-wallpaper-preview.jpg);
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-repeat: no-repeat; */
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    font-family: 'Bungee', cursive;
+    margin-top: 30px;
+    font-size: 2.5em;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 500ms linear;
+}
+
+a:hover {
+    color: yellow;
+    font-size: 1.4em;
+}
+
+
+
+
+
